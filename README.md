@@ -4,11 +4,11 @@
 | ---------------------- | ------- |
 | intro                  |   ✅   |
 | variables              |   ✅   |
-| functions              |   ❌   |
-| if                     |   ❌   |
-| primitive_types        |   ❌   |
-| vecs                   |   ❌   |
-| move_semantics         |   ❌   |
+| functions              |   ✅   |
+| if                     |   ✅   |
+| primitive_types        |   ✅   |
+| vecs                   |   ✅   |
+| move_semantics         |   ✅   |
 | structs                |   ❌   |
 | enums                  |   ❌   |
 | strings                |   ❌   |
