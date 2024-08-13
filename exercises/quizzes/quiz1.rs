@@ -12,8 +12,18 @@
 // the quantity bought.
 // fn calculate_price_of_apples(???) -> ??? { ??? }
 
+fn calculate_price_of_apples(apples:i32) -> i32{
+    let total: i32 = apples*2;
+    if apples > 40{
+        total/2 //does it wouldn't got an error? cause total isn't mutable
+    }else{
+        total
+    }
+}
+
 fn main() {
     // You can optionally experiment here.
+    calculate_price_of_apples(50);
 }
 
 // Don't change the tests!
