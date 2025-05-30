@@ -9,9 +9,9 @@
 | primitive_types        |   ✅   |
 | vecs                   |   ✅   |
 | move_semantics         |   ✅   |
-| structs                |   ❌   |
-| enums                  |   ❌   |
-| strings                |   ❌   |
+| structs                |   ✅   |
+| enums                  |   ✅   |
+| strings                |   ✅   |
 | modules                |   ❌   |
 | hashmaps               |   ❌   |
 | options                |   ❌   |
