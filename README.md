@@ -12,9 +12,9 @@
 | structs                |   ✅   |
 | enums                  |   ✅   |
 | strings                |   ✅   |
-| modules                |   ❌   |
-| hashmaps               |   ❌   |
-| options                |   ❌   |
+| modules                |   ✅   |
+| hashmaps               |   ✅   |
+| options                |   ✅   |
 | error_handling         |   ❌   |
 | generics               |   ❌   |
 | traits                 |   ❌   |
