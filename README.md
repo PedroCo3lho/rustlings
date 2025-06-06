@@ -15,8 +15,8 @@
 | modules                |   ✅   |
 | hashmaps               |   ✅   |
 | options                |   ✅   |
-| error_handling         |   ❌   |
-| generics               |   ❌   |
+| error_handling         |   ✅   |
+| generics               |   ✅   |
 | traits                 |   ❌   |
 | lifetimes              |   ❌   |
 | tests                  |   ❌   |
