@@ -17,10 +17,10 @@
 | options                |   ✅   |
 | error_handling         |   ✅   |
 | generics               |   ✅   |
-| traits                 |   ❌   |
-| lifetimes              |   ❌   |
-| tests                  |   ❌   |
-| iterators              |   ❌   |
+| traits                 |   ✅   |
+| lifetimes              |   ✅   |
+| tests                  |   ✅   |
+| iterators              |   ✅   |
 | smart_pointers         |   ❌   |
 | threads                |   ❌   |
 | macros                 |   ❌   |

@@ -1,13 +1,15 @@
 // In this exercise, you'll learn some of the unique advantages that iterators
 // can offer.
 
+use std::fmt::format;
+
 // TODO: Complete the `capitalize_first` function.
 // "hello" -> "Hello"
 fn capitalize_first(input: &str) -> String {
     let mut chars = input.chars();
-    match chars.next() {
+    match chars.next() { // next() is getting one (the 1st) char
         None => String::new(),
-        Some(first) => todo!(),
+        Some(first) => first.to_uppercase().to_string() + chars.as_str(),
     }
 }
 
@@ -15,14 +17,19 @@ fn capitalize_first(input: &str) -> String {
 // Return a vector of strings.
 // ["hello", "world"] -> ["Hello", "World"]
 fn capitalize_words_vector(words: &[&str]) -> Vec<String> {
-    // ???
+    let mut new: Vec<String>  = vec![];
+    for w in words{
+        new.push(capitalize_first(&w));
+    }
+    new
 }
 
 // TODO: Apply the `capitalize_first` function again to a slice of string
 // slices. Return a single string.
 // ["hello", " ", "world"] -> "Hello World"
 fn capitalize_words_string(words: &[&str]) -> String {
-    // ???
+    let capitalized = capitalize_words_vector(words);
+    capitalized.concat()
 }
 
 fn main() {
