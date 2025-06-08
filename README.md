@@ -21,8 +21,8 @@
 | lifetimes              |   ✅   |
 | tests                  |   ✅   |
 | iterators              |   ✅   |
-| smart_pointers         |   ❌   |
-| threads                |   ❌   |
+| smart_pointers         |   ✅   |
+| threads                |   ✅   |
 | macros                 |   ❌   |
 | clippy                 |   ❌   |
 | conversions            |   ❌   |
