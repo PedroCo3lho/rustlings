@@ -23,6 +23,6 @@
 | iterators              |   ✅   |
 | smart_pointers         |   ✅   |
 | threads                |   ✅   |
-| macros                 |   ❌   |
-| clippy                 |   ❌   |
-| conversions            |   ❌   |
+| macros                 |   ✅   |
+| clippy                 |   ✅   |
+| conversions            |   ✅   |
